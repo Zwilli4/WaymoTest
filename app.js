@@ -4,21 +4,24 @@ const incidents = [
         vehicle_id: "WAYMO_1001",
         location: "Broadway & 5th Ave",
         severity: "High",
-        incident_type: "traffic_block"
+        incident_type: "traffic_block",
+        vehicle_speed: 12
     },
 
     {
         vehicle_id: "WAYMO_1002",
         location: "Music Row",
         severity: "Medium",
-        incident_type: "sensor_failure"
+        incident_type: "sensor_failure",
+        vehicle_speed: 37
     },
 
     {
         vehicle_id: "WAYMO_1003",
         location: "The Gulch",
         severity: "Low",
-        incident_type: "unsafe_stop"
+        incident_type: "unsafe_stop",
+        vehicle_speed: 4
     }
 
 ];
@@ -40,6 +43,7 @@ incidents.forEach(incident => {
             <td>${incident.vehicle_id}</td>
             <td>${incident.location}</td>
             <td>${incident.severity}</td>
+            <td>${incident.vehicle_speed} mph</td>
             <td>${incident.incident_type}</td>
         </tr>
     `;
