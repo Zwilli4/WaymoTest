@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waymo Incident Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Waymo Operations Dashboard</h1>
+    </header>
+
+    <section class="cards">
+
+        <div class="card">
+            <h2>Active Incidents</h2>
+            <p id="activeIncidents">0</p>
+        </div>
+
+        <div class="card">
+            <h2>Vehicles Monitored</h2>
+            <p id="vehicleCount">0</p>
+        </div>
+
+        <div class="card">
+            <h2>High Severity</h2>
+            <p id="highSeverity">0</p>
+        </div>
+
+    </section>
+
+    <section class="table-section">
+
+        <h2>Incident History</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Vehicle</th>
+                    <th>Location</th>
+                    <th>Severity</th>
+                    <th>Incident Type</th>
+                </tr>
+            </thead>
+
+            <tbody id="incidentTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
