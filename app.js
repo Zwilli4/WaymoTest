@@ -9,7 +9,7 @@ const incidents = [
     },
 
     {
-        vehicle_id: "WAYMO_1047",
+        vehicle_id: "WAYMO_1448",
         location: "Vanderbilt Area",
         severity: "High",
         incident_type: "traffic_block",
