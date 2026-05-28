@@ -14,11 +14,11 @@ async function loadIncidents() {
 
         return {
 
-            vehicle_id: columns[0],
-            location: columns[1],
-            severity: columns[2],
-            incident_type: columns[3],
-            vehicle_speed: columns[4]
+            vehicle_id: columns[3],
+            location: columns[5],
+            severity: columns[4],
+            incident_type: columns[6],
+            vehicle_speed: columns[7]
 
         };
 
