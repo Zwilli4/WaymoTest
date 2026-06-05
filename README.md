@@ -52,6 +52,6 @@ Azure Static Web App Dashboard
 ## Live Demo
 
 
-## 🎥 Project Walkthrough
+## Project Walkthrough
 
-(Add Loom link)
+(Loom link coming soon)
